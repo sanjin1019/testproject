@@ -1,0 +1,323 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.box{width: 100%;height: auto;}
+/*导航条*/
+.nav{
+	width: 100&;
+	height: 100px;
+	background: #004F23;
+}
+.nav>div{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.nav>div>.left{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.nav>div>.left>a>img{
+	display: block;
+	width: 50%;
+	margin-top: 20px;
+}
+.nav>div>.right{
+	width: 70%;
+	height: 100%;
+	float: right;
+}
+.nav>div>.right>a>li{
+	float: left;
+	height: 100px;
+	line-height: 120px;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin-left: 35px;
+}
+.nav>div>.right>a>li:hover{
+	color: #72C02C;
+}
+/*轮播*/
+.banner{
+	width: 92%;
+	height: 500px;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+.banner>.imgs{
+	width: 100%;
+	height: 100%;
+}
+.banner>.imgs>img{
+	width: 100%;
+	height: 100%;
+	display: block;	
+}
+/*关于西西弗*/
+.about_xxf{
+	width: 100%;
+	height: 400px;
+	/*background: lightblue;*/
+	overflow: hidden;
+}
+.about_xxf>img{
+	display: block;
+	margin: 100px auto 0 auto;
+}
+.about_xxf>.words{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	margin: 50px 0;
+}
+.about_xxf>.words>p{
+	font-size: 36px;
+	font-family: simsun;
+	font-weight: 800;
+}
+.about_xxf>.words>span{
+	font-size: 24px;
+	font-family: simsun;
+	font-weight: 600;
+	color: #C1791D;
+	margin-top: 10px;
+	display: block;
+}
+.reader{
+	width: 100%;
+	height: 480px;
+	/*background: lightblue;*/
+}
+.reader>p{
+	width: 100%;
+	height: 100px;
+	/*background: indianred;*/
+	font-size: 20px;
+	font-family: simsun;
+	text-align: center;
+	color: #555555;
+}
+.reader>div{
+	width: 88%;
+	margin: 0 auto;
+	height: 250px;
+	border-top: 2px solid #72C02C;
+	border-right: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	text-indent: 2em;
+	font-size: 14px;
+	font-family: simsun;
+	color: #555555;
+	padding: 20px;
+	line-height: 30px;
+	box-shadow: 0 2px 10px 8px #EEEEEE;
+}
+/*文化沙龙*/
+.culture{
+	width: 90%;
+	height: 420px;
+	margin: 0 auto;
+}
+.culture>ul{
+	width: 100%;
+	height: 200px;
+}
+.culture>ul>li{
+	float: left;
+	text-align: center;
+	margin-left: 30px;
+}
+.culture>ul>li>a>img{
+	display: block;
+	width: 140px;
+	height: 140px;
+}
+.culture>ul>li>a>span{
+	display: block;
+	padding: 20px 0;
+	color: #004F23;
+	font-size: 22px;
+	font-family: simsun;
+	font-weight: bold;
+}
+.culture>ul.c_one{
+	width: 680px;
+	margin: 0 auto;
+}
+.culture>ul.c_two{
+	width: 850px;
+	margin: 0 auto;
+}
+/*开店合作*/
+.coopretion{
+	width: 88%;
+	height: 460px;
+	background: #000000;
+	margin: 50px auto 50px auto;
+	overflow: hidden;
+	padding: 30px;
+	position: relative;
+}
+.coopretion>p{
+	text-align: center;
+	font-family: simsun;
+	font-size: 28px;
+	color: #FFFFFF;
+	margin: 20px 0;
+}
+.coopretion>span{
+	text-align: center;
+	font-family: simsun;
+	font-size: 22px;
+	color: #FFFFFF;
+	display: block;
+	margin-bottom: 30px;
+}
+.coopretion>div{
+	width: 100%;
+	height: 340px;
+	border-bottom: 2px solid #C1791D;
+}
+.coopretion>div>p{
+	font-size: 14px;
+	font-family: simsun;
+	color: #FFFFFF;
+	margin-left: 80px;
+	line-height: 33px;
+}
+.coopretion>div>p>span{
+	font-size: 14px;
+	font-family: simsun;
+	color: #DB9433;
+}
+.coopretion>img{
+	display: block;
+	position: absolute;
+	top: 353px;
+	right: 50px;
+}
+.attention{
+	width: 100%;
+	height: 750px;
+	background: #272727;
+	overflow: hidden;
+}
+.attention>.main{
+	width: 85%;
+	height: 650px;
+	margin: 0px auto;
+}
+.attention>.main>.left{
+	width: 65%;
+	height: 100%;
+	float: left;
+}
+.attention>.main>.left>span{
+	display: block;
+	font-size: 18px;
+	color: #EEEEEE;
+	font-family: simsun;
+	margin: 50px 0 10px 0;
+}
+.attention>.main>.left>p>a{
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family: simsun;
+	line-height: 20px;
+}
+.attention>.main>.left>p>a:hover{
+	color: #337ab7;
+	text-decoration: underline;
+}
+.attention>.main>.left>p{
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family: simsun;
+	line-height: 20px;
+}
+.attention>.main>.right{
+	width: 35%;
+	height: 100%;
+	float: right;
+}
+.attention>.main>.right>.zp{
+	margin: 50px auto 0 auto;
+	width: 95%;
+	height: 240px;
+	text-align: center;
+}
+.attention>.main>.right>.zp>img{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 10px auto;
+}
+.attention>.main>.right>.zp>a{
+	font-size: 13px;
+	color: #72C02C;
+}
+.attention>.main>.right>.zp>a:hover{
+	color: #337ab7;
+	text-decoration: underline;
+}
+.attention>.main>.right>.ewm{
+	width: 95%;
+	height: 150px;
+	margin: 30px auto;
+}
+.attention>.main>.right>.ewm>.left{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.attention>.main>.right>.ewm>.right{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.attention>.main>.right>.ewm>div{
+	text-align: center;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.attention>.main>.right>.ewm>div>img{
+	display: block;
+	width: 110px;
+	height: 110px;
+	margin: 0 auto 10px auto;
+}
+.attention>.footer{
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,.3);
+	font-size: 13px;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.attention>.footer>div{
+	width: 85%;
+	height: 20%;
+	margin: 20px auto;
+}
+.attention>.footer>.address>.left{
+	float: left;
+}
+.attention>.footer>.address>.right{
+	float: right;
+}
+.attention>.footer>.number>.left{
+	float: left;
+}
+.attention>.footer>.number>.left>a{
+	font-size: 13px;
+	color: #FFFFFF;
+}
+.attention>.footer>.number>.left>a:hover{
+	text-decoration: underline;
+}
+.attention>.footer>.number>.right{
+	float: right;
+}
